@@ -5,7 +5,7 @@ namespace API_Example.Controllers
 {
     public class TestAuthorizeController : Controller
     {
-        [Authorize]
+        [Authorization.Authorize]
         [Route("testauthorize")]
         public string TestAccess()
         {
